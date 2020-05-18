@@ -1,0 +1,2 @@
+class FreeResponse < ApplicationRecord
+end

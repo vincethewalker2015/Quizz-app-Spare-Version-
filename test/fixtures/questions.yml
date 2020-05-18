@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  free_response: false
+  max_score: 1
+  quiz_id: 1
+
+two:
+  title: MyString
+  free_response: false
+  max_score: 1
+  quiz_id: 1
