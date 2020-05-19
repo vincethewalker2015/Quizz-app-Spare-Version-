@@ -3,6 +3,7 @@
 
 body {
   padding-top: 70px;
+  text-decoration: none;
 }
 
 .center {
@@ -21,7 +22,7 @@ body {
 
 //FLASH MESSAGES 
 
-alert-error {
+.alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
   color: #b94a48;
@@ -48,3 +49,12 @@ alert-error {
   color: #468847;
   text-align: left;
 }
+
+ .alert-danger {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+  text-decoration: none;
+}
+
