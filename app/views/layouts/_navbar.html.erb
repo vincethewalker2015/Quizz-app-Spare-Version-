@@ -12,7 +12,12 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
-        <li><%= link_to "Log In", "#", class: "btn btn-primary" %></li>
+      <% if current_user %>
+        <li><%= link_to "Log out", destroy_user_session_path, class: "btn btn-danger", method: :delete %></li>
+        <li>"a"</li>
+      <% else %>
+        <li><%= link_to "Log in", new_user_session_path, class: "btn btn-primary", method: :get %></li>
+      <% end %>
       </ul>
     </div>
     </nav>
