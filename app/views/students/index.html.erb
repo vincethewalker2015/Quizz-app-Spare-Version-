@@ -1,0 +1,6 @@
+<% @exams.each do |quiz| %>
+  <div class="container">
+    <h3><%= quiz.title %><h3>
+        <%= link_to 'Take Quiz!', exam_path(quiz), class: 'btn btn-primary btn-lg block' %>
+  </div>
+<% end %>
